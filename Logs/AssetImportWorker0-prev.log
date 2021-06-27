@@ -1,0 +1,140 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1055; Version 2009; 64bit' Language: 'ja' Physical Memory: 32676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\install\2021.1.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/DevelopmentProjects/Break the 5G call of dead
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49528
+Successfully changed project path to: D:/DevelopmentProjects/Break the 5G call of dead
+D:/DevelopmentProjects/Break the 5G call of dead
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path D:/install/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/DevelopmentProjects/Break the 5G call of dead/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12108 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'D:/install/2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/install/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/install/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/install/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000748 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.694 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3141.
+Total: 1.946700 ms (FindLiveObjects: 0.227200 ms CreateObjectMapping: 0.119400 ms MarkObjects: 1.542900 ms  DeleteObjects: 0.056500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Invector-3rdPersonController_LITE
+  artifactKey: Guid(df144b0614c9ac742bfc5a86fff53f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE using Guid(df144b0614c9ac742bfc5a86fff53f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f21e07fd7774b31bd4381a308b9800') in 0.005010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.241331 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion.unity
+  artifactKey: Guid(12a4d75da2db4d3439c09e07c73a85b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Invector_BasicLocomotion.unity using Guid(12a4d75da2db4d3439c09e07c73a85b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ddd199639023d30793ee30dc6aec50') in 0.008623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.487328 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.vrm
+  artifactKey: Guid(806c48d2ec4cffe45bafa572c0a26d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.vrm using Guid(806c48d2ec4cffe45bafa572c0a26d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc3cf24ee94fba76af5b371751b1d31') in 0.019898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 415877.300663 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ 2.prefab
+  artifactKey: Guid(b1fb09f8ffda5dd48acef99cad4d8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ 2.prefab using Guid(b1fb09f8ffda5dd48acef99cad4d8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4409cd53654d9631c455041f104c5237') in 0.076901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 248.819956 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ 2.fbx
+  artifactKey: Guid(8b8205bfdc497a64a8c7a2c0074de989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ 2.fbx using Guid(8b8205bfdc497a64a8c7a2c0074de989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025bc483df9f1f7faba5fd78ff57a313') in 0.386030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.024518 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ 2.fbx
+  artifactKey: Guid(8b8205bfdc497a64a8c7a2c0074de989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ 2.fbx using Guid(8b8205bfdc497a64a8c7a2c0074de989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b61f36995cc2942a7f281ad0f1aff3') in 0.080491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.446095 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3c96ab4986816b7b77dea28d49d6a8') in 0.002181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.437494 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ 2.fbx
+  artifactKey: Guid(8b8205bfdc497a64a8c7a2c0074de989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ 2.fbx using Guid(8b8205bfdc497a64a8c7a2c0074de989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4acfd921cf6851f9e4e844785ffb71') in 0.058131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.956775 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(f826ace0f9debd3459ee55b3b2640102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(f826ace0f9debd3459ee55b3b2640102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7658ff6106386d1035c29d5c82ce26') in 0.002372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.111969 seconds.
+  path: Assets/Materials2
+  artifactKey: Guid(f826ace0f9debd3459ee55b3b2640102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials2 using Guid(f826ace0f9debd3459ee55b3b2640102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c534104e5de0095fe82d7bf7f99c8e2f') in 0.002129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.217955 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(441ca18dca8491146b5c75b52e3c4df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(441ca18dca8491146b5c75b52e3c4df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f67f8a21b3ed12b9077aac3178e2b2e') in 0.001736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.235716 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(553f1aa81e194dc45b4e3b7bfcb52f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(553f1aa81e194dc45b4e3b7bfcb52f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfaa0c30a6aa1e0ca3348403d6fa49f') in 0.002059 seconds 
