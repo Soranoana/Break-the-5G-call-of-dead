@@ -1,0 +1,3 @@
+ThirdPersonControllerプレハブのv-botを削除。
+そこにVRMからuniVRMでプレハブにしたアバターをぶち込む
+ThirdPersonControllerオブジェクトのAnimatorコンポーネントのAvatarをVRM名.Avatarフォルダ下のVrmAvatarにする。

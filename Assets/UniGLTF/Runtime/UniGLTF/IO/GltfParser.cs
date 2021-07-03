@@ -25,7 +25,6 @@ namespace UniGLTF
         /// </summary>
         public IStorage Storage;
 
-        public MigrationFlags MigrationFlags = new MigrationFlags();
 
         #region Parse
         public void ParsePath(string path)
@@ -86,7 +85,7 @@ namespace UniGLTF
         {
             var chunks = glbImporter.ParseGlbChunks(bytes);
 
-            if (chunks.Count < 2)
+            if (chunks.Count != 2)
             {
                 throw new Exception("unknown chunk count: " + chunks.Count);
             }
@@ -106,8 +105,6 @@ namespace UniGLTF
                 var jsonBytes = chunks[0].Bytes;
                 ParseJson(Encoding.UTF8.GetString(jsonBytes.Array, jsonBytes.Offset, jsonBytes.Count),
                     new SimpleStorage(chunks[1].Bytes));
-
-                ParseExternalChunks(bytes, chunks);
             }
             catch (StackOverflowException ex)
             {
@@ -117,11 +114,6 @@ namespace UniGLTF
             {
                 throw;
             }
-        }
-
-        protected virtual void ParseExternalChunks(byte[] bytes, IReadOnlyList<GlbChunk> chunks)
-        {
-
         }
 
         public virtual void ParseJson(string json, IStorage storage)
@@ -234,7 +226,7 @@ namespace UniGLTF
                 var gltfImage = GLTF.images[gltfTexture.source];
                 if (!string.IsNullOrEmpty(gltfImage.uri) && !gltfImage.uri.StartsWith("data:"))
                 {
-                    // from image uri
+                    // from image uri                    
                     gltfTexture.name = Path.GetFileNameWithoutExtension(gltfImage.uri);
                 }
                 if (string.IsNullOrEmpty(gltfTexture.name))
@@ -292,7 +284,7 @@ namespace UniGLTF
                 {
                     if (used.Add(material.name))
                     {
-#if VRM_DEVELOP
+#if VRM_DEVELOP                        
                         // Debug.Log($"Material: {material.name}");
 #endif
                         break;
@@ -335,7 +327,7 @@ namespace UniGLTF
                 {
                     if (used.Add(animation.name))
                     {
-#if VRM_DEVELOP
+#if VRM_DEVELOP                        
                         // Debug.Log($"Material: {material.name}");
 #endif
                         break;

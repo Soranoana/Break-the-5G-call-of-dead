@@ -8,11 +8,10 @@ namespace VRMShaders
 {
     public class TextureFactory : IResponsibilityForDestroyObjects
     {
+        private readonly ITextureDeserializer _textureDeserializer;
         private readonly IReadOnlyDictionary<SubAssetKey, Texture> _externalMap;
-        private readonly bool _isLegacySquaredRoughness;
+        private readonly Dictionary<SubAssetKey, Texture> _temporaryTextures = new Dictionary<SubAssetKey, Texture>();
         private readonly Dictionary<SubAssetKey, Texture> _textureCache = new Dictionary<SubAssetKey, Texture>();
-
-        public ITextureDeserializer TextureDeserializer { get; }
 
         /// <summary>
         /// Importer が動的に生成した Texture
@@ -24,18 +23,19 @@ namespace VRMShaders
         /// </summary>
         public IReadOnlyDictionary<SubAssetKey, Texture> ExternalTextures => _externalMap;
 
-        public TextureFactory(
-            ITextureDeserializer textureDeserializer,
-            IReadOnlyDictionary<SubAssetKey, Texture> externalTextures,
-            bool isLegacySquaredRoughness)
+        public TextureFactory(ITextureDeserializer textureDeserializer, IReadOnlyDictionary<SubAssetKey, Texture> externalTextures)
         {
-            TextureDeserializer = textureDeserializer;
+            _textureDeserializer = textureDeserializer;
             _externalMap = externalTextures;
-            _isLegacySquaredRoughness = isLegacySquaredRoughness;
         }
 
         public void Dispose()
         {
+            foreach (var kv in _temporaryTextures)
+            {
+                UnityObjectDestoyer.DestroyRuntimeOrEditor(kv.Value);
+            }
+            _temporaryTextures.Clear();
             _textureCache.Clear();
         }
 
@@ -79,7 +79,7 @@ namespace VRMShaders
                         // > contrary to Unity’s usual convention of using Y as “up”
                         // https://docs.unity3d.com/2018.4/Documentation/Manual/StandardShaderMaterialParameterNormalMap.html
                         var data0 = await texDesc.Index0();
-                        var rawTexture = await TextureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
+                        var rawTexture = await _textureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
                         rawTexture.name = subAssetKey.Name;
                         rawTexture.SetSampler(texDesc.Sampler);
                         _textureCache.Add(subAssetKey, rawTexture);
@@ -94,16 +94,16 @@ namespace VRMShaders
                         if (texDesc.Index0 != null)
                         {
                             var data0 = await texDesc.Index0();
-                            metallicRoughnessTexture = await TextureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
+                            metallicRoughnessTexture = await _textureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
                         }
                         if (texDesc.Index1 != null)
                         {
                             var data1 = await texDesc.Index1();
-                            occlusionTexture = await TextureDeserializer.LoadTextureAsync(data1, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
+                            occlusionTexture = await _textureDeserializer.LoadTextureAsync(data1, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
                         }
 
                         var combinedTexture = OcclusionMetallicRoughnessConverter.Import(metallicRoughnessTexture,
-                            texDesc.MetallicFactor, texDesc.RoughnessFactor, occlusionTexture, _isLegacySquaredRoughness);
+                            texDesc.MetallicFactor, texDesc.RoughnessFactor, occlusionTexture);
                         combinedTexture.name = subAssetKey.Name;
                         combinedTexture.SetSampler(texDesc.Sampler);
                         _textureCache.Add(subAssetKey, combinedTexture);
@@ -115,7 +115,7 @@ namespace VRMShaders
                 case TextureImportTypes.sRGB:
                     {
                         var data0 = await texDesc.Index0();
-                        var rawTexture = await TextureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.sRGB);
+                        var rawTexture = await _textureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.sRGB);
                         rawTexture.name = subAssetKey.Name;
                         rawTexture.SetSampler(texDesc.Sampler);
                         _textureCache.Add(subAssetKey, rawTexture);
@@ -124,7 +124,7 @@ namespace VRMShaders
                 case TextureImportTypes.Linear:
                     {
                         var data0 = await texDesc.Index0();
-                        var rawTexture = await TextureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
+                        var rawTexture = await _textureDeserializer.LoadTextureAsync(data0, texDesc.Sampler.EnableMipMap, ColorSpace.Linear);
                         rawTexture.name = subAssetKey.Name;
                         rawTexture.SetSampler(texDesc.Sampler);
                         _textureCache.Add(subAssetKey, rawTexture);
@@ -133,6 +133,8 @@ namespace VRMShaders
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+
+            throw new NotImplementedException();
         }
     }
 }

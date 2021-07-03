@@ -15,11 +15,11 @@ D:/DevelopmentProjects/Break the 5G call of dead
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59571
+63223
 Successfully changed project path to: D:/DevelopmentProjects/Break the 5G call of dead
 D:/DevelopmentProjects/Break the 5G call of dead
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
 [Subsystems] Discovering subsystems at path D:/install/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,88 +35,1074 @@ Initialize mono
 Mono path[0] = 'D:/install/2021.1.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/install/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/install/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/install/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000763 seconds.
+Registered in 0.000769 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 63.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
+- Completed reload, in  0.931 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001852 seconds.
+Registered in 0.001665 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.727 seconds
+- Completed reload, in  0.700 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.2 MB.
-System memory in use after: 104.4 MB.
+System memory in use before: 104.3 MB.
+System memory in use after: 104.5 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3141.
-Total: 1.986900 ms (FindLiveObjects: 0.234000 ms CreateObjectMapping: 0.099200 ms MarkObjects: 1.586800 ms  DeleteObjects: 0.066300 ms)
+Total: 2.395400 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.107500 ms MarkObjects: 1.974800 ms  DeleteObjects: 0.070400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/FBX(converted)/【VRoidVRMモデル】ロゼッタ 2.prefab
-  artifactKey: Guid(302ef8417f8c32f4b84a90bdf9c80f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX(converted)/【VRoidVRMモデル】ロゼッタ 2.prefab using Guid(302ef8417f8c32f4b84a90bdf9c80f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15cadd90a56cf3ad27132fdd8f43e89') in 0.126706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/FBX(converted)/【VRoidVRMモデル】ロゼッタ 2.fbx
-  artifactKey: Guid(4a979360da8bdae41bd50be0706d64fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX(converted)/【VRoidVRMモデル】ロゼッタ 2.fbx using Guid(4a979360da8bdae41bd50be0706d64fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577837592bc3a502d37faf07169e1f49') in 0.090984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/FBX(converted)
-  artifactKey: Guid(4d29c16dd64c93b419b1e3183365c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX(converted) using Guid(4d29c16dd64c93b419b1e3183365c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12210b083519dd7d285c38c1290ca0e') in 0.001554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.417766 seconds.
-  path: Assets/FBX(forEdit)
-  artifactKey: Guid(9f885c7abe281d345a1fdbdcc20c35cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX(forEdit) using Guid(9f885c7abe281d345a1fdbdcc20c35cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222ff6d230bbbb4c0fe25b493188e302') in 0.001879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 57.950209 seconds.
   path: Assets/【VRoidVRMモデル】ロゼッタ 1.fbx
   artifactKey: Guid(8afbb6ed27d4ced4c926b6200652f2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/【VRoidVRMモデル】ロゼッタ 1.fbx using Guid(8afbb6ed27d4ced4c926b6200652f2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58cc05d477c082c8422ad7164e42026') in 0.091967 seconds 
+Start importing Assets/【VRoidVRMモデル】ロゼッタ 1.fbx using Guid(8afbb6ed27d4ced4c926b6200652f2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021b901db6982a083389b75bed396e20') in 0.352745 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.981179 seconds.
+  Time since last request: 48.908726 seconds.
   path: Assets/【VRoidVRMモデル】ロゼッタ.prefab
   artifactKey: Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/【VRoidVRMモデル】ロゼッタ.prefab using Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da323ab137f3eaaa0211e1f356386d02') in 0.004945 seconds 
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.prefab using Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c09ad6751c8f9c88e1d4f6d1d39559a') in 0.008542 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.022669 seconds.
-  path: Assets/【VRoidVRMモデル】ロゼッタ.vrm
-  artifactKey: Guid(4e8b0e7017cf63b459143c69c5bfca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/【VRoidVRMモデル】ロゼッタ.vrm using Guid(4e8b0e7017cf63b459143c69c5bfca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a9bb415ce3ed8e94f56b5c96681c0d') in 0.003561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.182261 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(b2ace93d1cdbab147a87e5da864b0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(b2ace93d1cdbab147a87e5da864b0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06cdc3b4bb283ba5ac76508e44727b8') in 0.001598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.135854 seconds.
+  Time since last request: 4.483891 seconds.
   path: Assets/【VRoidVRMモデル】ロゼッタ.Textures
   artifactKey: Guid(1f6a4788d03246f4fa21ff59f26fdbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/【VRoidVRMモデル】ロゼッタ.Textures using Guid(1f6a4788d03246f4fa21ff59f26fdbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11397e8f253b1b5a3a064681e84379c3') in 0.001863 seconds 
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.Textures using Guid(1f6a4788d03246f4fa21ff59f26fdbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911fb8d64b433b5ae6d881e2bcee2393') in 0.001888 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.1 MB.
+System memory in use after: 122.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 1.936800 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.108200 ms MarkObjects: 1.540800 ms  DeleteObjects: 0.033900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.2 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 2.817000 ms (FindLiveObjects: 0.224900 ms CreateObjectMapping: 0.112800 ms MarkObjects: 2.427500 ms  DeleteObjects: 0.050700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.2 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 2.384200 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.121900 ms MarkObjects: 1.950700 ms  DeleteObjects: 0.052800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3639.
+Total: 2.141800 ms (FindLiveObjects: 0.242000 ms CreateObjectMapping: 0.125500 ms MarkObjects: 1.574500 ms  DeleteObjects: 0.198800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3639.
+Total: 2.472300 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.106500 ms MarkObjects: 1.838900 ms  DeleteObjects: 0.271900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002513 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 136.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3656.
+Total: 2.506500 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.140200 ms MarkObjects: 1.876600 ms  DeleteObjects: 0.224400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9045.387825 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.BlendShapes
+  artifactKey: Guid(f5d7fd29c931b1247a19c06373a66047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.BlendShapes using Guid(f5d7fd29c931b1247a19c06373a66047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2edaf71110b0f23d46cfaccc6fca9') in 0.006248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.158215 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.AvatarDescription
+  artifactKey: Guid(9ad04cf784a6d3c40898ed0d1c7987af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.AvatarDescription using Guid(9ad04cf784a6d3c40898ed0d1c7987af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4e4489511c7adaadd037024d3cace') in 0.001883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.671693 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.Avatar
+  artifactKey: Guid(d2fb27fc8a0796a48aa5968063dcecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.Avatar using Guid(d2fb27fc8a0796a48aa5968063dcecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b45a8679752d29fe21a4080f29b2dda') in 0.001812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173848 seconds.
+  path: Assets/VRMShaders
+  artifactKey: Guid(503ae90aee4d0224db69e4e74762223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMShaders using Guid(503ae90aee4d0224db69e4e74762223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd517f146f5c588839fda459910e950b2') in 0.001855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144440 seconds.
+  path: Assets/VRM
+  artifactKey: Guid(8047ecfc909c7f044bad5c7d10844e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM using Guid(8047ecfc909c7f044bad5c7d10844e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4790760eb47c0b5801e7b3b2141a6e') in 0.001813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 200.025340 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.prefab
+  artifactKey: Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.prefab using Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b05ab79fa2fcb2f109ad2cd54512df3') in 0.229278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.620558 seconds.
+  path: Assets/Invector-3rdPersonController_LITE
+  artifactKey: Guid(df144b0614c9ac742bfc5a86fff53f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE using Guid(df144b0614c9ac742bfc5a86fff53f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00e13e5da607ec386d778a68accee43') in 0.001777 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002643 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.2 MB.
+System memory in use after: 137.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3662.
+Total: 2.438800 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.126500 ms MarkObjects: 1.890700 ms  DeleteObjects: 0.148000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.525734 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.prefab
+  artifactKey: Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.prefab using Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a06004cb5e5f97b483811c86604c1b6') in 0.191853 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002367 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 137.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3666.
+Total: 2.375200 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.131000 ms MarkObjects: 1.835800 ms  DeleteObjects: 0.150400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.296336 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.Textures
+  artifactKey: Guid(1f6a4788d03246f4fa21ff59f26fdbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.Textures using Guid(1f6a4788d03246f4fa21ff59f26fdbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11397e8f253b1b5a3a064681e84379c3') in 0.005664 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002492 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.2 MB.
+System memory in use after: 137.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3669.
+Total: 2.178100 ms (FindLiveObjects: 0.258300 ms CreateObjectMapping: 0.128300 ms MarkObjects: 1.637100 ms  DeleteObjects: 0.153900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.551694 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.Meshes/Body.baked.asset
+  artifactKey: Guid(ba177e5dd28caca4d9219951ed8f45cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.Meshes/Body.baked.asset using Guid(ba177e5dd28caca4d9219951ed8f45cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fede1cb6ea0326b1dd49f1ddc42daccf') in 0.060123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399982 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.Meshes/Face.baked.asset
+  artifactKey: Guid(0213da34f7357ca4da9f7f0a82e2dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.Meshes/Face.baked.asset using Guid(0213da34f7357ca4da9f7f0a82e2dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a45ec3da49398133b0aaebbcc95a634') in 0.054124 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002510 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.2 MB.
+System memory in use after: 137.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3673.
+Total: 2.067200 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.113500 ms MarkObjects: 1.598900 ms  DeleteObjects: 0.110400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.731557 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models
+  artifactKey: Guid(df7a237ce1e4b05448d6e510b58bfa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models using Guid(df7a237ce1e4b05448d6e510b58bfa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10703c9b2cfc7f0c47d832a0ad7ce71') in 0.006192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.853305 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Animations
+  artifactKey: Guid(87ecd9cffcda18a489b8f0b714256e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Animations using Guid(87ecd9cffcda18a489b8f0b714256e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d19730756f76ca574276e29781a2ccf') in 0.001812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.490007 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Animator/Invector@BasicLocomotion.controller
+  artifactKey: Guid(cbd1db45c75e5b948a5befe9ecb80421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Animator/Invector@BasicLocomotion.controller using Guid(cbd1db45c75e5b948a5befe9ecb80421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff4ebd7685d2cd7e464be1c6bed34e5') in 0.033051 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002717 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3676.
+Total: 2.400300 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.123300 ms MarkObjects: 1.851400 ms  DeleteObjects: 0.154000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.918406 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Resources
+  artifactKey: Guid(855faebe1a1569b43b5d0aec7c571385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Resources using Guid(855faebe1a1569b43b5d0aec7c571385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a40b9d225d4449a00b5dd86a4d8cfc') in 0.006077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.897434 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others
+  artifactKey: Guid(9efc6669b1b8b7944b371d4172294fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others using Guid(9efc6669b1b8b7944b371d4172294fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd028ea5903aecc3138361c9dfa148897') in 0.001921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.902496 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController
+  artifactKey: Guid(41524fcaa48073c47b6c6b1f47f7dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController using Guid(41524fcaa48073c47b6c6b1f47f7dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feab2f694959b041c30a6c1ec6d3c0ab') in 0.001874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.387974 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/vThirdPersonAnimator.cs
+  artifactKey: Guid(b74f4ff80d113374fb65bf806f887874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/vThirdPersonAnimator.cs using Guid(b74f4ff80d113374fb65bf806f887874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f30cfb9014a0def4fe89c75044f2cdc') in 0.031643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.449214 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_FreeMovement.fbx
+  artifactKey: Guid(37c6cfe59f56e8a4799011397a870a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_FreeMovement.fbx using Guid(37c6cfe59f56e8a4799011397a870a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cf1b71c63b53ebe9c595e408c4bd89') in 0.024744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.223043 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Other
+  artifactKey: Guid(aad0d2768bb10294bbf454faab288615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Other using Guid(aad0d2768bb10294bbf454faab288615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd0d4a8e4e0cd52c4453dca7c6210ce') in 0.001843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.152331 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Other/LogoAnimation.anim
+  artifactKey: Guid(5f352a3546f0f2848bced2329205b4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Other/LogoAnimation.anim using Guid(5f352a3546f0f2848bced2329205b4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b90e00441df4f4d1e95972049a4c748') in 0.004748 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002809 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3679.
+Total: 2.121200 ms (FindLiveObjects: 0.249200 ms CreateObjectMapping: 0.125500 ms MarkObjects: 1.636100 ms  DeleteObjects: 0.109900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.876528 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_StrafeMoveset.fbx
+  artifactKey: Guid(13d2640367521314591db34597e3f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_StrafeMoveset.fbx using Guid(13d2640367521314591db34597e3f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115069963ed8345f8da07ef68f209173') in 0.026397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/invector-icon.fbx
+  artifactKey: Guid(82d677cc46649fa4cb8988583aaa1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/invector-icon.fbx using Guid(82d677cc46649fa4cb8988583aaa1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daabfa7bbb0a10d35cf36e44880b6e5') in 0.057548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/health.fbx
+  artifactKey: Guid(33467abb1755ec142a053756c3f7f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/health.fbx using Guid(33467abb1755ec142a053756c3f7f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3886aa314f8c8ba4777909f4e532f975') in 0.080545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/sphere-health.fbx
+  artifactKey: Guid(0efea8e0c1e8eeb4688d7619f24ea10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/sphere-health.fbx using Guid(0efea8e0c1e8eeb4688d7619f24ea10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aae139d0a5e29c3fb16ffffd8a138e1') in 0.206391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX/VBOT_LOD.fbx
+  artifactKey: Guid(340f99b8334a14c4a8a01dce6e1e5348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX/VBOT_LOD.fbx using Guid(340f99b8334a14c4a8a01dce6e1e5348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94adc498585d35ee41c12df36bb0c478') in 0.060739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/cube.fbx
+  artifactKey: Guid(dee2cc7c00fcd6b4f90719f3660798f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/cube.fbx using Guid(dee2cc7c00fcd6b4f90719f3660798f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8fec86fb867a75666b4e2aece7fc9f') in 0.037563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.983388 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters
+  artifactKey: Guid(138409cb8cb94bf45add5b2a124104a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters using Guid(138409cb8cb94bf45add5b2a124104a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7391be55226646ef0adfdf9d7dba39') in 0.001898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.309862 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0
+  artifactKey: Guid(592212b3d25d5c94e8deb490ea381cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0 using Guid(592212b3d25d5c94e8deb490ea381cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcacbc5778f02007883b5a998c095393') in 0.001810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.005093 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX
+  artifactKey: Guid(34d70770f244d6b42ba06f4773a8792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX using Guid(34d70770f244d6b42ba06f4773a8792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1c00ec5a916f52acb60c97dd670d12') in 0.002286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002375 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.5 MB.
+System memory in use after: 137.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3683.
+Total: 2.441700 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.130700 ms MarkObjects: 1.896500 ms  DeleteObjects: 0.159300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.917491 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.Avatar/VrmAvatar.asset
+  artifactKey: Guid(f253967a7c5a1e64e85bfe1cc2fb5760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.Avatar/VrmAvatar.asset using Guid(f253967a7c5a1e64e85bfe1cc2fb5760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c15e58e79deea278598f9c9e8a7e4d') in 0.014224 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002398 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.5 MB.
+System memory in use after: 137.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3686.
+Total: 2.364200 ms (FindLiveObjects: 0.252300 ms CreateObjectMapping: 0.080500 ms MarkObjects: 1.871800 ms  DeleteObjects: 0.158700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.5 MB.
+System memory in use after: 137.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 2.183400 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.104300 ms MarkObjects: 1.687300 ms  DeleteObjects: 0.134600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002560 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.5 MB.
+System memory in use after: 137.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3692.
+Total: 2.416300 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.131100 ms MarkObjects: 1.858400 ms  DeleteObjects: 0.156600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 331.471651 seconds.
+  path: Assets/FbxExporters
+  artifactKey: Guid(e5cc1d0693fad204d97271e26e16b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FbxExporters using Guid(e5cc1d0693fad204d97271e26e16b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadee5fdaf2c866442316c75f9145b9c') in 0.006503 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002352 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of FbxExporters.Editor.ModelExporter:GetAnimationExportDataFromAnimationTrack due to: Could not load file or assembly 'UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.5 MB.
+System memory in use after: 137.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3695.
+Total: 2.533700 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.160900 ms MarkObjects: 1.866200 ms  DeleteObjects: 0.154800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3697.
+Total: 3.340800 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.115800 ms MarkObjects: 2.749300 ms  DeleteObjects: 0.214800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.415971 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/Generic
+  artifactKey: Guid(4c47f432b7fddbd48903c74f4aa830b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/Generic using Guid(4c47f432b7fddbd48903c74f4aa830b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5389c2fb83ff9a0be17100d845a60caf') in 0.005801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.100228 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils
+  artifactKey: Guid(d57db9baef9063d47b2c9f5bba34f0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils using Guid(d57db9baef9063d47b2c9f5bba34f0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e302485d5445966823597057b1d80499') in 0.001834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.656159 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/Editor
+  artifactKey: Guid(287c0a05bd6431943a702d33fdb140fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/Editor using Guid(287c0a05bd6431943a702d33fdb140fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadeaedf8a558f684ee8434cc60e34fc') in 0.001891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.732831 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator
+  artifactKey: Guid(4d7570a9a8501334e8bb4847e0209711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator using Guid(4d7570a9a8501334e8bb4847e0209711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6021e646b8cfe25dc19191c5a2b34f') in 0.001902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.367991 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script
+  artifactKey: Guid(22c6beaa7cee2fe47ad477eb20a4137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script using Guid(22c6beaa7cee2fe47ad477eb20a4137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a95f5f026cc433e788d9f9d5efe75ea') in 0.001846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.111853 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script/Editor
+  artifactKey: Guid(304237a0b0ea3bb4caa2d325a310a642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script/Editor using Guid(304237a0b0ea3bb4caa2d325a310a642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9ea22968dd0ddc49419b4289d794ee') in 0.001621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.034164 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script/Editor/vCreateBasicCharacterEditor.cs
+  artifactKey: Guid(0be34c7083a012248a83e5a948676d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Script/Editor/vCreateBasicCharacterEditor.cs using Guid(0be34c7083a012248a83e5a948676d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263a26cd0d326261ec2f21996433e3a5') in 0.001857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.320165 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor
+  artifactKey: Guid(de05c90f6cd26a9478bee31eb029d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor using Guid(de05c90f6cd26a9478bee31eb029d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af2efa7098e857ab964532114ceb853') in 0.001633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.418642 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/Camera
+  artifactKey: Guid(92dd769e36bd4fa4389e2236fea92cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/Camera using Guid(92dd769e36bd4fa4389e2236fea92cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6779c19c75c7e0d310da7480d770ecd4') in 0.001895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.503798 seconds.
+  path: Assets/VRM/Tests
+  artifactKey: Guid(d1e29567ae4a748419ddb2c7d1aebfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM/Tests using Guid(d1e29567ae4a748419ddb2c7d1aebfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f56f143dccf00f11a18b25db1b58e2c') in 0.001893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.606925 seconds.
+  path: Assets/VRM/Editor
+  artifactKey: Guid(e16fa2d1e69251f4894daa1df758f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRM/Editor using Guid(e16fa2d1e69251f4894daa1df758f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef827b3dbbfb62cda96e934c5f6e7c0') in 0.001618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.671523 seconds.
+  path: Assets/UniGLTF
+  artifactKey: Guid(4502ffceb7ee07441a884e5033f953a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF using Guid(4502ffceb7ee07441a884e5033f953a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba746b5390bc6741889f9e9424c496f') in 0.001930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.997575 seconds.
+  path: Assets/UniGLTF/Tests
+  artifactKey: Guid(bfa02900a1cd1054b87b8de71a654e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests using Guid(bfa02900a1cd1054b87b8de71a654e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f770a913984c8548d2142aa4d8ed53') in 0.001636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.558971 seconds.
+  path: Assets/UniGLTF/package.json
+  artifactKey: Guid(84fc56afa55c6c541b16d7e64f5f0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/package.json using Guid(84fc56afa55c6c541b16d7e64f5f0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8c96284a86b4c524d9b0a9b7a82edb') in 0.011325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.554239 seconds.
+  path: Assets/UniGLTF/README.md
+  artifactKey: Guid(c97bd2ee06a25534f9947292d562aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/README.md using Guid(c97bd2ee06a25534f9947292d562aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507656212d6414715706dd45413b8c12') in 0.031834 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3700.
+Total: 2.408800 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.109200 ms MarkObjects: 1.892400 ms  DeleteObjects: 0.158000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.576950 seconds.
+  path: Assets/UniGLTF/Editor
+  artifactKey: Guid(029873273c773e74cb950a5c2c13dc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor using Guid(029873273c773e74cb950a5c2c13dc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93432861996f70d10ba9d1ef698e9ce') in 0.005308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.163234 seconds.
+  path: Assets/UniGLTF/Editor/EditorSettingsValidator
+  artifactKey: Guid(133086fc7a3249648756fc81cba2b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/EditorSettingsValidator using Guid(133086fc7a3249648756fc81cba2b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0cf3f60904d2b55c055a07bc754c20') in 0.001802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.654911 seconds.
+  path: Assets/UniGLTF/Editor/Animation
+  artifactKey: Guid(31c3691403d341e2a9b49d6eb895e013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/Animation using Guid(31c3691403d341e2a9b49d6eb895e013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbee0df3a71eeb568e8b1a071a0fb99f') in 0.001840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.933508 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF
+  artifactKey: Guid(49ba4a8fd4ec2da469b762ac51575175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF using Guid(49ba4a8fd4ec2da469b762ac51575175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4201703598c19277743a33a2050bd66') in 0.001605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.449473 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/UniGLTFPreference.cs
+  artifactKey: Guid(08fd3e6c59bc903468e139f9e46684b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/UniGLTFPreference.cs using Guid(08fd3e6c59bc903468e139f9e46684b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447b06df2608f70459001821d97784c') in 0.001988 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3703.
+Total: 2.235400 ms (FindLiveObjects: 0.254100 ms CreateObjectMapping: 0.123700 ms MarkObjects: 1.720400 ms  DeleteObjects: 0.136600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 287 unused Assets to reduce memory usage. Loaded Objects now: 3429.
+Total: 2.359000 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.080800 ms MarkObjects: 1.887600 ms  DeleteObjects: 0.127100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.4 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 2.142400 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.108600 ms MarkObjects: 1.732300 ms  DeleteObjects: 0.046100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3713.
+Total: 2.502800 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.136400 ms MarkObjects: 1.890700 ms  DeleteObjects: 0.157900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 127.9 MB.
+
+Unloading 286 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 1.963600 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.079800 ms MarkObjects: 1.540900 ms  DeleteObjects: 0.097100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.4 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3443.
+Total: 2.222200 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.108000 ms MarkObjects: 1.818400 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.4 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3446.
+Total: 1.921800 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.576800 ms  DeleteObjects: 0.036200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3725.
+Total: 2.321000 ms (FindLiveObjects: 0.237900 ms CreateObjectMapping: 0.079700 ms MarkObjects: 1.842900 ms  DeleteObjects: 0.159700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3728.
+Total: 2.380500 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.111700 ms MarkObjects: 1.869400 ms  DeleteObjects: 0.159900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.996641 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.prefab
+  artifactKey: Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.prefab using Guid(c884623562c73354fa5f434400aad41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddb9bf29396e91db01dad26ba0f7754') in 0.170619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.201149 seconds.
+  path: Assets/【VRoidVRMモデル】ロゼッタ.Materials
+  artifactKey: Guid(a48a676cd4d08c84ea18dd54126d14da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/【VRoidVRMモデル】ロゼッタ.Materials using Guid(a48a676cd4d08c84ea18dd54126d14da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbec419bb5ae1bd39d77325113e9a2b7') in 0.001705 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2759 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 221 unused Assets to reduce memory usage. Loaded Objects now: 3523.
+Total: 2.117500 ms (FindLiveObjects: 0.322600 ms CreateObjectMapping: 0.085100 ms MarkObjects: 1.541100 ms  DeleteObjects: 0.167800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001625 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3735.
+Total: 2.070500 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.097500 ms MarkObjects: 1.585200 ms  DeleteObjects: 0.164400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.341095 seconds.
+  path: Assets/UniGLTF/UniHumanoid
+  artifactKey: Guid(42aed961be744fc4b9d423ac4c29f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/UniHumanoid using Guid(42aed961be744fc4b9d423ac4c29f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605b70071d3f282bc5a69b48d766f62') in 0.005909 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3738.
+Total: 2.318900 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.127000 ms MarkObjects: 1.763700 ms  DeleteObjects: 0.158600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.726800 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/ExportDialog
+  artifactKey: Guid(d7ee61ea6eb4ff541831cba9ce76371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/ExportDialog using Guid(d7ee61ea6eb4ff541831cba9ce76371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb2010c3591d68c7da308b2664a0691') in 0.005604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.519085 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs
+  artifactKey: Guid(fd4010850f4b6bf4e8c3cc58a5af9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportWindow.cs using Guid(fd4010850f4b6bf4e8c3cc58a5af9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd270d18aa8ed78d2385bcd78bbab872') in 0.001843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447270 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportSettings.cs
+  artifactKey: Guid(6e6d0977c916e05438394a6ea65b6a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/ExportDialog/GltfExportSettings.cs using Guid(6e6d0977c916e05438394a6ea65b6a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0799c9d1e556b0991a3c9bd624701eeb') in 0.001795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.110033 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/ScriptedImporter
+  artifactKey: Guid(552c42899d5f1664b8fba3faef53f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/ScriptedImporter using Guid(552c42899d5f1664b8fba3faef53f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d3da4b62ad9da49e97c30e006d7333') in 0.001833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.524702 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/ScriptedImporter/GlbScriptedImporterEditorGUI.cs
+  artifactKey: Guid(706590752e82d004e99da97aff535f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/ScriptedImporter/GlbScriptedImporterEditorGUI.cs using Guid(706590752e82d004e99da97aff535f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7a33c6717a5c48e4fb16e7cebda34e') in 0.001779 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
